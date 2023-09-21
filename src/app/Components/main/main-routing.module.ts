@@ -28,6 +28,7 @@ import { ListofCustomersComponent } from 'src/app/Reports/listof-customers/listo
 import { BudgettingComponent } from '../budgetting/budgetting.component';
 import { BudgetReportComponent } from 'src/app/Reports/budget-report/budget-report.component';
 import { DailyTransactionRptComponent } from 'src/app/Reports/daily-transaction-rpt/daily-transaction-rpt.component';
+import { VoucherSupervisionComponent } from '../voucher-supervision/voucher-supervision.component';
 
 
 
@@ -44,12 +45,12 @@ const routes: Routes = [
   {path:'party', component: PartyComponent},
   {path:'AddUser', component: AddUserComponent},
   {path:'Settings',component:SettingsComponent},
-  // {path:'product',component:ProductComponent},
-  // {path:'sale',component:SaleComponent},
-  // {path:'purchase',component:PurchaseComponent},
-  // {path:'bank',component:BankComponent},
+  {path:'product',component:ProductComponent},
+  {path:'sale',component:SaleComponent},
+  {path:'purchase',component:PurchaseComponent},
+  {path:'bank',component:BankComponent},
   {path:'OwnerProfile',component:OwnerProfileComponent},
-
+  {path:'spvn',component:VoucherSupervisionComponent},
   {path:'orptl',component:OwnersReportComponent},
   {path:'CBRpt',component:CashbookComponent},
   {path:'rptcust',component:ListofCustomersComponent},

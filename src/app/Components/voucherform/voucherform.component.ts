@@ -386,6 +386,7 @@ export class VoucherformComponent implements OnInit{
     this.lblInvoiceNo = row.invoiceNo;
     this.lblInvoiceDate = row.invoiceDate;
     this.lblRemarks = row.invoiceRemarks;
+    this.lblVoucherType = row.type;
 
     this.getInvoiceDetail(row.invoiceNo);
     
@@ -419,6 +420,7 @@ export class VoucherformComponent implements OnInit{
     this.lblInvoiceNo = curRow.invoiceNo;
     this.lblInvoiceDate = curRow.invoiceDate;
     this.lblRemarks = curRow.invoiceRemarks;
+    this.lblVoucherType = curRow.type;
 
     this.getInvoiceDetail(invoiceNo);
 

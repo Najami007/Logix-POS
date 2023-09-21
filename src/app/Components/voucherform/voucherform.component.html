@@ -259,9 +259,10 @@
 
 
                <div class="d-flex justify-content-between mt-5 pt-5">
-                <h5 class="border-bottom">Created BY</h5>
-                <h5 class="border-bottom">Approved BY</h5>
-                <h5 class="border-bottom">Checked BY</h5>
+                <h5 *ngIf="lblVoucherType == 'CPV' || lblVoucherType == 'BPV'" class="border-bottom border-dark">Received BY</h5>
+                <h5 class="border-bottom border-dark">Created BY</h5>
+                <h5 class="border-bottom border-dark">Approved BY</h5>
+                <h5 class="border-bottom border-dark">Checked BY</h5>
                </div>
         
         
@@ -461,9 +462,10 @@
 
 
                <div class="d-flex justify-content-between mt-5 pt-5">
-                <h5 class="border-bottom">Created BY</h5>
-                <h5 class="border-bottom">Approved BY</h5>
-                <h5 class="border-bottom">Checked BY</h5>
+                <h5 *ngIf="lblVoucherType == 'CPV' || lblVoucherType == 'BPV'" class="border-bottom border-dark">Received BY</h5>
+                <h5 class="border-bottom border-dark">Created BY</h5>
+                <h5 class="border-bottom border-dark">Approved BY</h5>
+                <h5 class="border-bottom border-dark">Checked BY</h5>
                </div>
         
         
